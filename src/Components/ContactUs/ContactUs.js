@@ -1,23 +1,23 @@
 import React, { useEffect, useState } from 'react'
 import "./ContactUs.css"
-// import ScrollReveal from 'scrollreveal'
+import ScrollReveal from 'scrollreveal'
 // import contactImg from "../../Assets/contactUS.jpg"
 
 const ContactUs = (props) => {
 
-//   useEffect(() => {
-//     const sr = ScrollReveal({
-//       origin: 'left',
-//       distance: '80px',
-//       duration: 2000,
-//       reset: true,
-//     });
+  useEffect(() => {
+    const sr = ScrollReveal({
+      origin: 'left',
+      distance: '80px',
+      duration: 2000,
+      reset: true,
+    });
 
-//     sr.reveal('.contact-main', {})
-//     sr.reveal('.contact-body', {})
+    sr.reveal('.contact-main', {})
+    sr.reveal('.contact-body', {})
 
-//     return () => sr.destroy();
-//   }, []);
+    return () => sr.destroy();
+  }, []);
 
   // form
   const [formData, setFormData] = useState({

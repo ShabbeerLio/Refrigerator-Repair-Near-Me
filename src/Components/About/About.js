@@ -1,22 +1,22 @@
 import React, { useEffect } from 'react'
 import "./About.css"
-// import ScrollReveal from 'scrollreveal'
+import ScrollReveal from 'scrollreveal'
 // import AboutKey2 from "../../Assets/about2.jpg"
 
 const About = () => {
 
-//   useEffect(() => {
-//     const sr = ScrollReveal({
-//       origin: 'left',
-//       distance: '80px',
-//       duration: 2000,
-//       reset: true,
-//     });
+  useEffect(() => {
+    const sr = ScrollReveal({
+      origin: 'left',
+      distance: '80px',
+      duration: 2000,
+      reset: true,
+    });
 
-//     sr.reveal('.about-main', {})
+    sr.reveal('.about-main', {})
 
-//     return () => sr.destroy();
-//   }, []);
+    return () => sr.destroy();
+  }, []);
 
 
 

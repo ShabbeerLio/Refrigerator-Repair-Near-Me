@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import "./Navbar.css"
+import FormFloat from './FormFloat';
 // import Logo from "../../Assets/Logo.png"
 // import FormFloat from './FormFloat';
 
@@ -196,7 +197,7 @@ const Navbar = (props) => {
         </div>
         {formopen && (
           <>
-            {/* <FormFloat formIsClose={formIsClose}/> */}
+            <FormFloat formIsClose={formIsClose}/>
           </>
         )}
       </div>

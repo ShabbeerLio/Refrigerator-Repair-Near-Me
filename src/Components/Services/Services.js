@@ -1,25 +1,25 @@
 import React, { useEffect, useState } from 'react'
 import "./Services.css"
 import Data from '../Data/Data';
-// import ScrollReveal from 'scrollreveal'
+import ScrollReveal from 'scrollreveal'
 // import Data from '../Data/Data'
 
 const Services = () => {
 
   const [serviceData, setServiceData] = useState(Data);
 
-//   useEffect(() => {
-//     const sr = ScrollReveal({
-//       origin: 'bottom',
-//       distance: '80px',
-//       duration: 2000,
-//       reset: true,
-//     });
+  useEffect(() => {
+    const sr = ScrollReveal({
+      origin: 'bottom',
+      distance: '80px',
+      duration: 2000,
+      reset: true,
+    });
 
-//     sr.reveal('.service-box', {})
+    sr.reveal('.service-box', {})
 
-//     return () => sr.destroy();
-//   }, []);
+    return () => sr.destroy();
+  }, []);
 
   return (
     <>

@@ -127,7 +127,7 @@ const Footer = (props) => {
                 </div>
                 <div className="footer-down">
                     <div className="footer-copyright">
-                        <p>© 2024 Near Me Key Maker</p>
+                        <p>© 2024 Refrigerator Repair Near Me</p>
                         <p>Designed by :<a href="https://globalitsources.com/">&#160; Global IT Sources</a></p>
                     </div>
                 </div>
